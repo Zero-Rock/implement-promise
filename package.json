@@ -1,0 +1,34 @@
+{
+  "name": "promise-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/promise/index.ts",
+  "scripts": {
+    "precommit": "lint-staged",
+    "prettier": "prettier --write",
+    "test:promise": "rm -rf ./dist && tsc && promises-aplus-tests ./dist/src/promise/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zero-Rock/implement-promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zero-Rock/implement-promise/issues"
+  },
+  "homepage": "https://github.com/Zero-Rock/implement-promise#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1",
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "lint-staged": {
+    "*.{tsx?,jsx?}": "npm run prettier"
+  }
+}
