@@ -1,5 +1,5 @@
 {
-  "name": "promise-a",
+  "name": "implement-promise",
   "version": "1.0.0",
   "description": "",
   "main": "src/promise/index.ts",
