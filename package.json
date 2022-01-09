@@ -29,6 +29,6 @@
     "promises-aplus-tests": "^2.1.2"
   },
   "lint-staged": {
-    "*.{tsx?,jsx?}": "npm run prettier"
+    "*.{js,jsx,ts,tsx,json}": "npm run prettier"
   }
 }
